@@ -13,8 +13,8 @@ app.use(cors());
 app.use(session({
     resave: false,
     saveUninitialized: true,
-    secret: 'keyboard cat yo',
-    cookie: {maxAge: 60000}
+    secret: 'you will never get this',
+    cookie: {maxAge: 1000 * 60 * 60 * 24 * 7}
 }));
 
 // Custom TLM
