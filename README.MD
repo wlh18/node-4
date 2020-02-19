@@ -324,5 +324,22 @@ https://github.com/DevMountain/node-bcrypt-mini
 https://github.com/DevMountain/node-bcrypt-afternoon
 
 # Node 4 Additional Resources
+
+## Authentication
  - [bcryptjs docs](https://www.npmjs.com/package/bcryptjs)
  - [good video on hashing, encrypting, salt, and bcrypt](https://www.youtube.com/watch?v=cczlpiiu42M)
+
+### Middleware
+- A brief summary of middleware: https://developer.mozilla.org/en-US/docs/Glossary/Middleware
+- A more in-depth explanation of middleware: https://www.redhat.com/en/topics/middleware/what-is-middleware
+
+### Cookies
+- In-depth history and explanation of cookies:https://www.whoishostingthis.com/resources/cookies-guide/
+- Another in-depth guide to cookies: https://html.com/resources/cookies-ultimate-guide/
+- A very accessible explanation of cookies from the pre-class videos: https://www.youtube.com/watch?v=I01XMRo2ESg
+- Another overview of cookies as well as sessions using Starbucks analogy: https://www.youtube.com/watch?v=64veb6tKTm0
+
+## Sessions
+- Brief overview of sessions : https://stackoverflow.com/questions/53918615/understanding-express-session
+- Basic example of how to use express sessions and why they are useful: https://www.tutorialspoint.com/expressjs/expressjs_sessions.htm
+- Another example and explantion of express sessions: https://flaviocopes.com/express-sessions/
