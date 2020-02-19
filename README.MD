@@ -1,6 +1,6 @@
 # Node Four
 
-In this lesson we talk about middleware, cookies, and sessions in our Node server.
+In this lesson we talk about middleware, cookies, sessions, and authentication. 
 
 ## Middleware
 
