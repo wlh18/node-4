@@ -2,6 +2,37 @@
 
 In this lesson we talk about middleware, cookies, sessions, and authentication. 
 
+## Student Learning Objectives
+
+### Custom/Application Level Middleware
+
+* Student can create custom middleware.
+* Student can put middleware in a separate file and import it into their server file to use.
+* Student can invoke `next` in custom middleware.
+* Student can implement custom middleware in `app.use()`.
+* Student can implement custom middleware(s) directly in the endpoint.
+* Student can implement custom middleware at different levels in the server file affecting only the desired endpoints below it.
+* Student can serve up static files with `app.use(express.static( [file path to build folder] ))`.
+
+### Sessions
+
+* Student can install and require `express-session`.
+* Student can create session middleware and pass in the options object with the properties `resave` (false), `saveUnitialized`(true) and `secret`.
+* Student can assign the `secret` property a value from their `.env` file.
+* Student can set an expiration for their session with the property `cookie.maxAge`.
+* Student can store information on the session object through `req.session`.
+* Student can access information on the session object through `req.session`.
+* Student can destroy a session with `req.session.destroy()`.
+
+### Authentication
+
+* Student can discuss basics of web based authentication.
+* Student can use bcrypt to hash and store passwords.
+* Student can use bcrypt to authenticate users.
+* Student can describe the differences between Hashing, Encryption and Encoding.
+
+# Node 4 Lecture Notes
+
 ## Middleware
 
 A middleware function is a function that is executed between an endpoint being hit and the handler function that sends a response. They will act like the `middle man` in our requests.
