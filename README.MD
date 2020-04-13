@@ -1,6 +1,10 @@
 # Node Four
 
-In this lesson we talk about middleware, cookies, sessions, and authentication. 
+Lecture Slides: https://slides.com/dmweb/sessions-cookies-authentication
+
+Mini Project: https://github.com/DevMountain/node-bcrypt-mini
+
+Afternoon Project: https://github.com/DevMountain/node-bcrypt-afternoon
 
 ## Student Learning Objectives
 
